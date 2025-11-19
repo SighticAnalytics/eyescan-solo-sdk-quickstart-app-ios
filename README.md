@@ -1,6 +1,6 @@
-# EyeScan Solo SDK QuickStart app
+# EyeScan Solo SDK QuickStart app for iOS
 
-The EyeScan Solo SDK QuickStart app is intended to show developers how to integrate [EyeScan Solo SDK](https://github.com/SighticAnalytics/eyescan-solo-sdk-ios).
+The EyeScan Solo SDK QuickStart app is intended to show developers how to integrate [EyeScan Solo SDK for iOS](https://github.com/SighticAnalytics/eyescan-solo-sdk-ios).
 
 ## Overview
 
@@ -9,7 +9,7 @@ The EyeScan Solo SDK QuickStart app is intended to show developers how to integr
 
 ## EyeScan Solo SDK documentation
 
-* EyeScan Solo SDK documentation is [available here](https://sighticanalytics.github.io/eyscan-solo-sdk-ios/documentation/eyescansolosdk/).
+* EyeScan Solo SDK documentation is [available here](https://sighticanalytics.github.io/eyescan-solo-sdk-ios/documentation/eyescansolosdk/).
 
 ## API key
 
