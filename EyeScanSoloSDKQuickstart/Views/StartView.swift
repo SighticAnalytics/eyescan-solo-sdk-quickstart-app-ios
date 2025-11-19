@@ -2,13 +2,13 @@
 // Copyright © 2022-2025 Sightic Analytics AB. All rights reserved.
 //
 
-import IRISintegrate
+import EyeScanSoloSDK
 import SwiftUI
 
 /// Initial view.
 ///
 /// The start view implements logic to check if the current device is compatible
-/// with IRIS integrate using the `SighticSupportedDevices.status` property.
+/// with EyeScan Solo SDK using the `SighticSupportedDevices.status` property.
 struct StartView: View {
     @Binding var screen: Screen
     @State private var status: SighticSupportedDevices.Status?
@@ -16,8 +16,8 @@ struct StartView: View {
     var body: some View {
         VStack {
             Header(
-                title: "IRIS integrate Quickstart",
-                subtitle: "IRIS integrate version: \(SighticVersion.sdkVersion)"
+                title: "EyeScan Solo SDK Quickstart",
+                subtitle: "EyeScan Solo SDK version: \(SighticVersion.sdkVersion)"
             )
 
             Spacer()
@@ -36,7 +36,7 @@ struct StartView: View {
                 Text("There seems to be a network error")
 
             case .unsupported:
-                Text("Device not supported by the IRIS integrate framework 😞")
+                Text("Device not supported by EyeScan Solo SDK 😞")
                     .multilineTextAlignment(.center)
                     .padding()
                 Button("Start scan anyway") {
@@ -47,12 +47,12 @@ struct StartView: View {
 
             Spacer()
 
-            // Show warning if IRISintegrateQuickstart.apiKey is not set
-            if IRISintegrateQuickstartApp.apiKey.isEmpty {
+            // Show warning if EyeScanSoloSDKQuickstart.apiKey is not set
+            if EyeScanSoloSDKQuickstartApp.apiKey.isEmpty {
                 TextFrame(
                     symbol: "exclamationmark.triangle",
                     title: "API key missing",
-                    text: "Add your API key to the apiKey property in IRISintegrateQuickstartApp.swift"
+                    text: "Add your API key to the apiKey property in EyeScanSoloSDKQuickstartApp.swift"
                 )
             }
         }

@@ -2,11 +2,11 @@
 // Copyright © 2022-2025 Sightic Analytics AB. All rights reserved.
 //
 
-import IRISintegrate
+import EyeScanSoloSDK
 
 /// The errors we want to handle in the UI.
 ///
-/// At different points in the IRIS integrate flow we can receive errors.
+/// At different points in the EyeScan Solo SDK flow we can receive errors.
 /// We wrap these in an enum that is an associated value on `Screen.error`.
 enum Error {
     case sighticError(SighticError)

@@ -2,7 +2,7 @@
 // Copyright © 2022-2025 Sightic Analytics AB. All rights reserved.
 //
 
-import IRISintegrate
+import EyeScanSoloSDK
 import SwiftUI
 
 /// View that presents the inference result.

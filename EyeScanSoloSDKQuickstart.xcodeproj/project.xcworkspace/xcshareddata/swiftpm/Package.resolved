@@ -1,0 +1,15 @@
+{
+  "originHash" : "e52080f5e1b150323c93b9bd0ad81da9a1210f3462e25232bea0c721bf79b542",
+  "pins" : [
+    {
+      "identity" : "eyescan-solo-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SighticAnalytics/eyescan-solo-sdk-ios",
+      "state" : {
+        "revision" : "8da1506ed95129b98b1f3e6670f8a6790bf7c685",
+        "version" : "3.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

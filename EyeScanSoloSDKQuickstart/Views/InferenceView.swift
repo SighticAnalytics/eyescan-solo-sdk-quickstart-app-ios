@@ -2,7 +2,7 @@
 // Copyright © 2022-2025 Sightic Analytics AB. All rights reserved.
 //
 
-import IRISintegrate
+import EyeScanSoloSDK
 import SwiftUI
 
 /// View that is displayed while waiting for an inference result.
@@ -25,7 +25,7 @@ struct InferenceView: View {
             Spacer()
         }
         .task {
-            let result = await recording.performInference(apiKey: IRISintegrateQuickstartApp.apiKey)
+            let result = await recording.performInference(apiKey: EyeScanSoloSDKQuickstartApp.apiKey)
             Task { @MainActor in
                 switch result {
                 case .success(let inference):

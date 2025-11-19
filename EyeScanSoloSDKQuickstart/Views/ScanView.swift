@@ -2,10 +2,10 @@
 // Copyright © 2022-2025 Sightic Analytics AB. All rights reserved.
 //
 
-import IRISintegrate
+import EyeScanSoloSDK
 import SwiftUI
 
-/// View that displays the IRIS integrate scan flow.
+/// View that displays the EyeScan Solo SDK scan flow.
 struct ScanView: View {
     @Binding var screen: Screen
 
