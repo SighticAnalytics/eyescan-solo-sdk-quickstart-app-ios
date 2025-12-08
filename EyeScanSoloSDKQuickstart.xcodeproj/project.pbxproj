@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C6495282ECE19F1002B3DC5 /* EyeScanSoloSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2C6495272ECE19F1002B3DC5 /* EyeScanSoloSDK */; };
+		06E526F32EE71C3E003E3683 /* EyeScanSoloSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 06E526F22EE71C3E003E3683 /* EyeScanSoloSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6495282ECE19F1002B3DC5 /* EyeScanSoloSDK in Frameworks */,
+				06E526F32EE71C3E003E3683 /* EyeScanSoloSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = EyeScanSoloSDKQuickstart;
 			packageProductDependencies = (
-				2C6495272ECE19F1002B3DC5 /* EyeScanSoloSDK */,
+				06E526F22EE71C3E003E3683 /* EyeScanSoloSDK */,
 			);
 			productName = EyeScanSoloSDKQuickstart;
 			productReference = 064B405B2D5F74E100FFE4E3 /* EyeScanSoloSDKQuickstart.app */;
@@ -101,7 +101,7 @@
 			mainGroup = 064B40522D5F74E100FFE4E3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				2C6495262ECE19F1002B3DC5 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */,
+				06E526F12EE71C3E003E3683 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 064B405C2D5F74E100FFE4E3 /* Products */;
@@ -194,6 +194,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_MEMORY_SAFETY = YES;
 				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
@@ -251,6 +252,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_STRICT_MEMORY_SAFETY = YES;
 				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -280,7 +282,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sightic.EyeScanSoloSDKQuickstart${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -318,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sightic.EyeScanSoloSDKQuickstart${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -356,7 +358,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2C6495262ECE19F1002B3DC5 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */ = {
+		06E526F12EE71C3E003E3683 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SighticAnalytics/eyescan-solo-sdk-ios";
 			requirement = {
@@ -367,9 +369,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2C6495272ECE19F1002B3DC5 /* EyeScanSoloSDK */ = {
+		06E526F22EE71C3E003E3683 /* EyeScanSoloSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2C6495262ECE19F1002B3DC5 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */;
+			package = 06E526F12EE71C3E003E3683 /* XCRemoteSwiftPackageReference "eyescan-solo-sdk-ios" */;
 			productName = EyeScanSoloSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
