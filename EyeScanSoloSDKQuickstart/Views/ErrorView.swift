@@ -8,7 +8,7 @@ import SwiftUI
 /// View displaying an error received by Sightic SDK.
 struct ErrorView: View {
     @Binding var screen: Screen
-    let error: Error
+    let error: SighticError
 
     var body: some View {
         VStack {

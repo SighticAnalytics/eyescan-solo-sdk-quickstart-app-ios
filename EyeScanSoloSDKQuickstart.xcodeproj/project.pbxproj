@@ -363,7 +363,7 @@
 			repositoryURL = "https://github.com/SighticAnalytics/eyescan-solo-sdk-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.2.0;
+				minimumVersion = 3.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SighticAnalytics/eyescan-solo-sdk-ios",
       "state" : {
-        "revision" : "f5d6faed0dd3a50c2f06cf6a27010c536eb7e0e4",
-        "version" : "3.2.0"
+        "revision" : "f98f8c358763a08c83a4216cda4f987198e34efa",
+        "version" : "3.3.0"
       }
     }
   ],

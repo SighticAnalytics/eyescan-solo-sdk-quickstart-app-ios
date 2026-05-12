@@ -4,26 +4,6 @@
 
 import EyeScanSoloSDK
 
-/// The errors we want to handle in the UI.
-///
-/// At different points in the EyeScan Solo SDK flow we can receive errors.
-/// We wrap these in an enum that is an associated value on `Screen.error`.
-enum Error {
-    case sighticError(SighticError)
-    case recordingError(SighticRecordingError)
-}
-
-extension Error: CustomStringConvertible {
-    public var description: String {
-        switch self {
-        case .sighticError(let sighticError):
-            sighticError.description
-        case .recordingError(let sighticRecordingError):
-            sighticRecordingError.description
-        }
-    }
-}
-
 extension SighticError: @retroactive CustomStringConvertible {
     public var description: String {
         switch self {
@@ -35,6 +15,8 @@ extension SighticError: @retroactive CustomStringConvertible {
             "HTTP error \(code)."
         case .internalError(let code):
             "Internal error \(code)."
+        case .recordingError(let recordingError):
+            recordingError.description
         }
     }
 }

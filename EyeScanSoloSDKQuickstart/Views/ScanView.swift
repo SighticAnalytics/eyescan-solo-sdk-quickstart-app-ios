@@ -10,12 +10,12 @@ struct ScanView: View {
     @Binding var screen: Screen
 
     var body: some View {
-        SighticView { result in
+        SighticView(apiKey: EyeScanSoloSDKQuickstartApp.apiKey) { result in
             switch result {
             case .success(let recording):
-                screen = .inference(recording)
+                screen = .result(recording)
             case .failure(let error):
-                screen = .error(.recordingError(error))
+                screen = .error(error)
             }
         }
     }
